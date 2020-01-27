@@ -3,7 +3,7 @@
 A strong, costomizable dos and ddos framework with over 30 functions/commands for testing your own servers.
 
 ## Table of content:
- 
+
 |A|Content|Description|
 |:-:|:----------:|:-----------------------:|
 |A1|Introduction|What makes Raven-Storm different?|
@@ -137,39 +137,24 @@ On the next startup you can see the action using the values command.
 ### #B3:
 You will need to create a file with following values you want to define inside.
 
-```ip = Set ip.```
-
-```port = Set port.```
-
-```threads = Set threads.```
-
-```message = Set message.```
-
-```repeat = Set repeat.```
-
-```sleep = Set delay.```
-
-```output = true/false. Output toggle.```
-
-```stress = Activate stress mode.```
-
-```stressstep = Set stress steping count.```
-
-```mb = Set mb.```
-
-```autostart = Set start delay.```
-
-```autostop = Set auto stop.```
-
-```autostep = Set the automated stepping.```
-
-```hip = Redis ip.```
-
-```hport = Redis port.```
-
-```runonstart = com1, com2 ... Run on start.```
-
-```method = tcp/udp.```
+```ip = Set ip.
+port = Set port.
+threads = Set threads.
+message = Set message.
+repeat = Set repeat.
+sleep = Set delay.
+output = true/false. Output toggle.
+stress = Activate stress mode.
+stressstep = Set stress steping count.
+mb = Set mb.
+autostart = Set start delay.
+autostop = Set auto stop.
+autostep = Set the automated stepping.
+hip = Redis ip.
+hport = Redis port.
+runonstart = com1, com2 ... Run on start.
+method = tcp/udp.
+```
 
 You will then be able to run this config file using:
 
